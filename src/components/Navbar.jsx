@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className='flex items-center justify-between py-3 px-6 lg:px-10'>
       <Logo linkPath='/' />
 
-      <div className='hidden lg:flex'>
+      <div className='hidden md:flex'>
         <MainList />
       </div>
     </nav>

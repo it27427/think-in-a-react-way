@@ -3,7 +3,7 @@ import MenuLink from './MenuLink';
 
 const MainList = () => {
   return (
-    <ul className='flex flex-col items-start gap-3 uppercase text-sm lg:text-base lg:items-center lg:flex-row lg:gap-6'>
+    <ul className='flex flex-col items-start gap-3 uppercase text-sm lg:text-base lg:items-center md:flex-row lg:gap-6'>
       <li>
         <MenuLink linkPath={'/'} linkText='Home' />
       </li>
