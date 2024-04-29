@@ -13,6 +13,10 @@ import ProductsPage from '@/pages/ProductsPage';
 import SignInPage from '@/pages/auth/SignInPage';
 import SignUpPage from '@/pages/auth/SignUpPage';
 
+// TERMS AND PRIVACY-POLICY
+import PrivacyPolicyPage from '@/pages/policy/PrivacyPolicyPage';
+import TermsConditionsPage from '@/pages/policy/TermsConditionsPage';
+
 const App = () => {
   return (
     <>
@@ -28,6 +32,10 @@ const App = () => {
           {/* AUTHENTICATION-PAGES */}
           <Route path='/sign-in' element={<SignInPage />} />
           <Route path='/sign-up' element={<SignUpPage />} />
+
+          {/* TERMS-AND-PRIVACY PAGES */}
+          <Route path='/tarms' element={<TermsConditionsPage />} />
+          <Route path='/privary-policy' element={<PrivacyPolicyPage />} />
 
           <Route path='/*' element={<ErrorPage />} />
         </Routes>
