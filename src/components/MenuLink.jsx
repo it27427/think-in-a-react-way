@@ -1,11 +1,11 @@
 import { NavLink } from 'react-router-dom';
 
 const MenuLink = ({ linkPath, linkText }) => {
-  const activeClass = (isActive) => (isActive ? 'active' : '');
+  const linkClasses = (isActive) => (isActive ? 'active' : '');
 
   return (
     <>
-      <NavLink to={linkPath} className={activeClass}>
+      <NavLink to={linkPath} className={linkClasses}>
         {linkText}
       </NavLink>
     </>
