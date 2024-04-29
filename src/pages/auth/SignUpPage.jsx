@@ -1,10 +1,10 @@
-import ErrorLayout from '@/components/layouts/ErrorLayout';
+import EmptyLayout from '@/components/layouts/EmptyLayout';
 
 const SignUpPage = () => {
   return (
-    <ErrorLayout>
+    <EmptyLayout>
       <h1>Sign Up</h1>
-    </ErrorLayout>
+    </EmptyLayout>
   );
 };
 

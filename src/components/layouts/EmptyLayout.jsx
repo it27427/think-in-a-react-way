@@ -1,4 +1,4 @@
-const ErrorLayout = ({ children }) => {
+const EmptyLayout = ({ children }) => {
   return (
     <main className='flex items-center justify-center min-h-screen'>
       {children}
@@ -6,4 +6,4 @@ const ErrorLayout = ({ children }) => {
   );
 };
 
-export default ErrorLayout;
+export default EmptyLayout;

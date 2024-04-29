@@ -1,10 +1,10 @@
-import ErrorLayout from '@/components/layouts/ErrorLayout';
+import EmptyLayout from '@/components/layouts/EmptyLayout';
 
 const SignInPage = () => {
   return (
-    <ErrorLayout>
+    <EmptyLayout>
       <h1>Sign In Page</h1>
-    </ErrorLayout>
+    </EmptyLayout>
   );
 };
 

@@ -1,11 +1,11 @@
-import ErrorLayout from '@/components/layouts/ErrorLayout';
+import EmptyLayout from '@/components/layouts/EmptyLayout';
 import NotFound from '@/components/NotFound';
 
 const ErrorPage = () => {
   return (
-    <ErrorLayout>
+    <EmptyLayout>
       <NotFound />
-    </ErrorLayout>
+    </EmptyLayout>
   );
 };
 
