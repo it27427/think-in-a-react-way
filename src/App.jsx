@@ -13,8 +13,6 @@ import ProductsPage from '@/pages/ProductsPage';
 import SignInPage from '@/pages/auth/SignInPage';
 import SignUpPage from '@/pages/auth/SignUpPage';
 
-// IMPORT-COMPONENTS
-
 const App = () => {
   return (
     <>
