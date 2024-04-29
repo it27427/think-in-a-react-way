@@ -1,15 +1,22 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from '@/pages/HomePage';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+
+// IMPORT-PAGES
 import AboutPage from '@/pages/AboutPage';
-import BlogsPage from './pages/BlogsPage';
 import ContactPage from '@/pages/ContactPage';
-import FaqPage from '@/pages/FaqPage';
-import ProductsPage from '@/pages/ProductsPage';
 import ErrorPage from '@/pages/ErrorPage';
+import FaqPage from '@/pages/FaqPage';
+import HomePage from '@/pages/HomePage';
+import ProductsPage from '@/pages/ProductsPage';
+import BlogsPage from './pages/BlogsPage';
+
+// IMPORT-COMPONENTS
+import Header from '@/components/Header';
 
 const App = () => {
   return (
     <>
+      <Header />
+
       <Router>
         <Routes>
           <Route path='/' element={<HomePage />} />
