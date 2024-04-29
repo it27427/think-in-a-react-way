@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 const Logo = ({ linkPath, logoText = 'ReactBlog' }) => {
   return (
-    <Link to={linkPath} className='flex items-center gap-1'>
+    <Link to={linkPath} className='flex items-center gap-2'>
       <img src={logo} alt='brand-logo' width={40} height={40} />
-      {logoText}
+      <span className='text-slate-100 font-bold uppercase'>{logoText}</span>
     </Link>
   );
 };
