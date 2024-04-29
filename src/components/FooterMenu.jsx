@@ -2,7 +2,7 @@ import MainLink from './MainLink';
 
 const FooterMenu = () => {
   return (
-    <div className='container'>
+    <div className='container px-6 lg:px-10'>
       <ul>
         <li>
           <MainLink path='/faq' text='Faq' />
