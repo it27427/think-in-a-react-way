@@ -8,7 +8,7 @@ const FooterMenu = () => {
           <MainLink
             path='/faq'
             text='Faq'
-            textColor='text-white underline underline-offset-4'
+            textColor='text-white underline underline-offset-4 transition-color hover:text-teal-700'
           />
         </li>
         <li>
