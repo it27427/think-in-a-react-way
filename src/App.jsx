@@ -10,16 +10,11 @@ import ProductsPage from '@/pages/ProductsPage';
 import BlogsPage from './pages/BlogsPage';
 
 // IMPORT-COMPONENTS
-import Header from '@/components/Header';
 
 const App = () => {
   return (
     <>
       <Router>
-        {/* {window.location.pathname !== '/sign-in' ||
-            window.location.pathname !== '/sign-up' ||
-            (window.location.pathname !== '/*' ? <Header /> : null)} */}
-        <Header />
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/about' element={<AboutPage />} />

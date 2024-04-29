@@ -1,10 +1,10 @@
-import MainLayout from '@/components/layouts/MainLayout';
+import RootLayout from '@/components/layouts/RootLayout';
 
 const FaqPage = () => {
   return (
-    <MainLayout>
+    <RootLayout>
       <h1>Faq Page</h1>
-    </MainLayout>
+    </RootLayout>
   );
 };
 

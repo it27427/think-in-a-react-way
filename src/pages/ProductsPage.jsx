@@ -1,10 +1,10 @@
-import MainLayout from '@/components/layouts/MainLayout';
+import RootLayout from '@/components/layouts/RootLayout';
 
 const ProductsPage = () => {
   return (
-    <MainLayout>
+    <RootLayout>
       <h2>Products Page</h2>
-    </MainLayout>
+    </RootLayout>
   );
 };
 

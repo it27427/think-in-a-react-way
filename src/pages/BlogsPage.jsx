@@ -1,10 +1,10 @@
-import MainLayout from '@/components/layouts/MainLayout';
+import RootLayout from '@/components/layouts/RootLayout';
 
 const BlogsPage = () => {
   return (
-    <MainLayout>
+    <RootLayout>
       <h1>Blogs Page</h1>
-    </MainLayout>
+    </RootLayout>
   );
 };
 
