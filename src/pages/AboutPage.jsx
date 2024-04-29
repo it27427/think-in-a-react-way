@@ -1,10 +1,10 @@
-import MainSection from '@/components/layouts/MainSection';
+import MainLayout from '@/components/layouts/MainLayout';
 
 const AboutPage = () => {
   return (
-    <MainSection>
+    <MainLayout>
       <h1>About Page</h1>
-    </MainSection>
+    </MainLayout>
   );
 };
 
