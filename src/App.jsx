@@ -5,6 +5,7 @@ import BlogsPage from './pages/BlogsPage';
 import ContactPage from '@/pages/ContactPage';
 import FaqPage from '@/pages/FaqPage';
 import ProductsPage from '@/pages/ProductsPage';
+import ErrorPage from '@/pages/ErrorPage';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='/contact' element={<ContactPage />} />
           <Route path='/faq' element={<FaqPage />} />
           <Route path='/products' element={<ProductsPage />} />
+          <Route path='/*' element={<ErrorPage />} />
         </Routes>
       </Router>
     </>
