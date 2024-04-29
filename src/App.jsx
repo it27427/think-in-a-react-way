@@ -16,8 +16,10 @@ const App = () => {
   return (
     <>
       <Router>
+        {/* {window.location.pathname !== '/sign-in' ||
+            window.location.pathname !== '/sign-up' ||
+            (window.location.pathname !== '/*' ? <Header /> : null)} */}
         <Header />
-
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/about' element={<AboutPage />} />
