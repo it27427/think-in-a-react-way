@@ -2,31 +2,36 @@ import MainLink from './MainLink';
 
 const FooterMenu = () => {
   return (
-    <div className='container px-6 lg:px-10'>
-      <ul>
-        <li>
-          <MainLink
-            path='/faq'
-            text='Faq'
-            textColor='text-white underline underline-offset-4 transition-color hover:text-teal-700'
-          />
-        </li>
-        <li>
-          <MainLink
-            path='/privary-policy'
-            text='Privacy & Policy'
-            textColor='text-white underline underline-offset-4'
-          />
-        </li>
-        <li>
-          <MainLink
-            path='/tarms'
-            text='Terms & Conditions'
-            textColor='text-white underline underline-offset-4'
-          />
-        </li>
-      </ul>
-    </div>
+    <ul className='flex flex-col gap-3'>
+      <li>
+        <MainLink
+          path='/blogs'
+          text='Blogs'
+          textColor='text-white transition hover:text-teal-200 hover:underline underline-offset-4'
+        />
+      </li>
+      <li>
+        <MainLink
+          path='/faq'
+          text='Faq'
+          textColor='text-white transition hover:text-teal-200 hover:underline underline-offset-4'
+        />
+      </li>
+      <li>
+        <MainLink
+          path='/privary-policy'
+          text='Privacy & Policy'
+          textColor='text-white transition hover:text-teal-200 hover:underline underline-offset-4'
+        />
+      </li>
+      <li>
+        <MainLink
+          path='/tarms'
+          text='Terms & Conditions'
+          textColor='text-white transition hover:text-teal-200 hover:underline underline-offset-4'
+        />
+      </li>
+    </ul>
   );
 };
 
