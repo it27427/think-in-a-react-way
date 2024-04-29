@@ -20,14 +20,14 @@ const FooterMenu = () => {
       <li>
         <MainLink
           path='/privary-policy'
-          text='Privacy & Policy'
+          text='Privacy Policy'
           textColor='text-white transition hover:text-teal-200 hover:underline underline-offset-4'
         />
       </li>
       <li>
         <MainLink
           path='/tarms'
-          text='Terms & Conditions'
+          text='Terms &amp; Conditions'
           textColor='text-white transition hover:text-teal-200 hover:underline underline-offset-4'
         />
       </li>
