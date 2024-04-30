@@ -1,9 +1,10 @@
+import HeroSlider from '@/components/HeroSlider';
 import RootLayout from '@/layouts/RootLayout';
 
 const HomePage = () => {
   return (
     <RootLayout>
-      <h1>Home Page</h1>
+      <HeroSlider />
     </RootLayout>
   );
 };
