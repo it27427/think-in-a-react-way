@@ -1,6 +1,7 @@
+import RootLayout from '@/layouts/RootLayout';
+
 import HeroSlider from '@/components/HeroSlider';
 import slides from '@/db/slider.json';
-import RootLayout from '@/layouts/RootLayout';
 
 const HomePage = () => {
   return (
