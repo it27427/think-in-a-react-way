@@ -1,10 +1,4 @@
-import {
-  A11y,
-  Autoplay,
-  Navigation,
-  Pagination,
-  Scrollbar,
-} from 'swiper/modules';
+import { A11y, Autoplay, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css/bundle';
@@ -13,11 +7,9 @@ const HeroSlider = ({ slides }) => {
   return (
     <section>
       <Swiper
-        modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
+        modules={[Autoplay, A11y, Navigation]}
         spaceBetween={0}
         slidesPerView={1}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
         loop={true}
         autoplay={(true, { delay: 5000 })}
         navigation
