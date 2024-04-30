@@ -19,7 +19,7 @@ const HeroSlider = ({ slides }) => {
             <img
               src={slide.img}
               alt={slide.img}
-              className='w-full h-96 object-cover'
+              className='w-full h-40 md:h-60 lg:h-96 object-center md:object-cover'
             />
           </SwiperSlide>
         ))}

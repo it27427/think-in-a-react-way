@@ -6,3 +6,10 @@
   --tw-text-opacity: 1;
   --swiper-theme-color: rgb(94 234 212 / var(--tw-text-opacity));
 }
+
+@media screen and (max-width: 35.9375rem) {
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 2rem;
+  }
+}
