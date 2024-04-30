@@ -1,8 +1,10 @@
+import RootLayout from '@/layouts/RootLayout';
+
 const TermsConditionsPage = () => {
   return (
-    <div>
+    <RootLayout>
       <h1>Terms And Conditions</h1>
-    </div>
+    </RootLayout>
   );
 };
 
