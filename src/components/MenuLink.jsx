@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom';
 const MenuLink = ({ linkPath, linkText }) => {
   const linkClasses = ({ isActive }) =>
     isActive
-      ? 'active text-teal-300 font-semibold inline-block p-2'
-      : 'text-white inline-block p-2 transition hover:text-teal-300 font-semibold';
+      ? 'active text-cyan-700 font-semibold inline-block p-2'
+      : 'text-black inline-block p-2 transition hover:text-cyan-700 font-semibold';
 
   return (
     <>
