@@ -11,9 +11,6 @@ const MainList = () => {
         <MenuLink linkPath={'/about'} linkText='About' />
       </li>
       <li>
-        <MenuLink linkPath={'/blogs'} linkText='Blogs' />
-      </li>
-      <li>
         <MenuLink linkPath={'/products'} linkText='Products' />
       </li>
       <li>
