@@ -10,9 +10,9 @@ const SignInForm = () => {
     <form>
       <InputField
         type='text'
-        classes='test'
-        id='test'
-        placeholder='test'
+        classes='border'
+        id='name'
+        placeholder='Enter Name'
         value={inputData}
         onChange={handleChange}
       />
