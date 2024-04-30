@@ -26,7 +26,7 @@ const FooterMenu = () => {
       </li>
       <li>
         <MainLink
-          path='/tarms'
+          path='/terms'
           text='Terms &amp; Conditions'
           textColor='text-white transition hover:text-teal-200 hover:underline underline-offset-4'
         />

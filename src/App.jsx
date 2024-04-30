@@ -38,7 +38,7 @@ function App() {
           <Route path='/sign-up' element={<SignUpPage />} />
 
           {/* TERMS-AND-PRIVACY PAGES */}
-          <Route path='/tarms' element={<TermsConditionsPage />} />
+          <Route path='/terms' element={<TermsConditionsPage />} />
           <Route path='/privary-policy' element={<PrivacyPolicyPage />} />
 
           <Route path='/*' element={<ErrorPage />} />
