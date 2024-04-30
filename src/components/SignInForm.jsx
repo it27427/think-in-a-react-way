@@ -1,10 +1,10 @@
-import React from 'react';
+import { useState } from 'react';
 import InputField from './InputField';
 
 const SignInForm = () => {
-  const handleChange = (e) => {
-    console.log(e.target.value);
-  };
+  const [inputData, setInputData] = useState('');
+
+  const handleChange = (e) => setInputData(e.target.value);
 
   return (
     <form>
@@ -13,6 +13,7 @@ const SignInForm = () => {
         classes='test'
         id='test'
         placeholder='test'
+        value={inputData}
         onChange={handleChange}
       />
     </form>
