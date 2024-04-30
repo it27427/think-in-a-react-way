@@ -17,7 +17,11 @@ import SignUpPage from '@/pages/auth/SignUpPage';
 import PrivacyPolicyPage from '@/pages/policy/PrivacyPolicyPage';
 import TermsConditionsPage from '@/pages/policy/TermsConditionsPage';
 
-const App = () => {
+// COMPONENTS
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+function App() {
   return (
     <>
       <Router>
@@ -40,8 +44,10 @@ const App = () => {
           <Route path='/*' element={<ErrorPage />} />
         </Routes>
       </Router>
+
+      <ToastContainer />
     </>
   );
-};
+}
 
 export default App;

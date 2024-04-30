@@ -1,4 +1,4 @@
-import EmptyLayout from '@/components/layouts/EmptyLayout';
+import EmptyLayout from '@/layouts/EmptyLayout';
 
 const SignInPage = () => {
   return (

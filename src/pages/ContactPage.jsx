@@ -1,4 +1,4 @@
-import RootLayout from '@/components/layouts/RootLayout';
+import RootLayout from '@/layouts/RootLayout';
 
 const ContactPage = () => {
   return (
