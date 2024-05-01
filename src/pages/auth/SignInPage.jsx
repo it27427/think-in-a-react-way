@@ -1,15 +1,14 @@
-import signInThumb from '@/assets/images/svg/login.svg';
 import SignInForm from '@/components/SignInForm';
 import EmptyLayout from '@/layouts/EmptyLayout';
+
+import signInThumb from '@/assets/images/svg/login.svg';
 
 const SignInPage = () => {
   return (
     <EmptyLayout>
       <div className='flex flex-col lg:flex-row items-center'>
         <div className='w-full lg:w-1/2 p-6 flex flex-col items-center justify-center gap-6'>
-          <div className='flex flex-col gap-4'>
-            <h2 className='text-2xl'>Sign In</h2>
-          </div>
+          <h2 className='text-2xl uppercase text-center font-bold'>Sign In</h2>
           <SignInForm />
         </div>
 
