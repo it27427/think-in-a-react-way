@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Button from './Button';
 import InputField from './InputField';
 
 const SignInForm = () => {
@@ -27,6 +28,13 @@ const SignInForm = () => {
           onChange={handleChange}
         />
       </div>
+
+      <Button
+        type='submit'
+        classes='bg-cyan-600 text-white rounded text-center'
+      >
+        Sign In
+      </Button>
     </form>
   );
 };
