@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Button from './Button';
 import InputField from './InputField';
 
@@ -34,6 +35,15 @@ const SignInForm = () => {
       >
         Sign In
       </Button>
+
+      <div className='flex items-center justify-center'>
+        <p className='text-center font-medium text-slate-800'>
+          Don't have any account?{' '}
+          <Link to='/sign-up' className='underline font-bold text-teal-900'>
+            Register Here
+          </Link>
+        </p>
+      </div>
     </form>
   );
 };
