@@ -10,7 +10,7 @@ const SignInForm = () => {
     <form>
       <InputField
         type='text'
-        classes='border'
+        classes='border border-sky-500'
         id='name'
         placeholder='Enter Name'
         value={inputData}
