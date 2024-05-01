@@ -10,7 +10,7 @@ const SignInForm = () => {
     <form className='px-6 w-full lg:px-12'>
       <InputField
         type='email'
-        classes='border border-slate-500 w-full'
+        classes='border border-slate-300 w-full h-10 py-3 px-4 rounded transition focus:border-slate-700'
         id='email'
         placeholder='Enter Email Address'
         value={inputData}
