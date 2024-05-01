@@ -1,6 +1,7 @@
+import SignUpForm from '@/components/SignUpForm';
 import EmptyLayout from '@/layouts/EmptyLayout';
 
-import signInThumb from '@/assets/images/svg/login.svg';
+import signUpThumb from '@/assets/images/svg/sign-up.svg';
 
 const SignUpPage = () => {
   return (
@@ -8,13 +9,13 @@ const SignUpPage = () => {
       <div className='flex flex-col lg:flex-row items-center'>
         <div className='w-full lg:w-1/2 p-6 flex flex-col items-center justify-center gap-6'>
           <h2 className='text-2xl uppercase text-center font-bold text-teal-500'>
-            Sign In
+            Sign Up
           </h2>
-          <SignInForm />
+          <SignUpForm />
         </div>
 
         <figure className='w-full lg:w-1/2 p-6'>
-          <img src={signInThumb} alt='sign-in' />
+          <img src={signUpThumb} alt='sign-up' />
         </figure>
       </div>
     </EmptyLayout>
