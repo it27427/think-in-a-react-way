@@ -3,9 +3,8 @@ import Button from './Button';
 import InputField from './InputField';
 
 const SignInForm = () => {
-  const [inputData, setInputData] = useState('');
-
-  const handleChange = (e) => setInputData(e.target.value);
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
   return (
     <form className='px-6 w-full lg:px-12 flex flex-col gap-10'>
@@ -15,23 +14,23 @@ const SignInForm = () => {
           classes='border border-slate-300 w-full h-10 py-3 px-4 rounded transition focus:border-slate-700'
           id='email'
           placeholder='Enter Email Address'
-          value={inputData}
-          onChange={handleChange}
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
         />
 
         <InputField
           type='password'
-          classes='border border-slate-300 w-full h-10 py-3 px-4 rounded transition focus:border-slate-700'
+          classes='border border-slate-300 w-full h-10 py-3 px-4 rounded transition focus:border-teal-600'
           id='password'
           placeholder='Enter Password'
-          value={inputData}
-          onChange={handleChange}
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
         />
       </div>
 
       <Button
         type='submit'
-        classes='bg-cyan-600 text-white rounded text-center'
+        classes='bg-teal-500 text-white font-semibold rounded text-center h-10 transition hover:bg-teal-600'
       >
         Sign In
       </Button>
