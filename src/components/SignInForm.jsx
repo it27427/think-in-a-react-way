@@ -7,12 +7,12 @@ const SignInForm = () => {
   const handleChange = (e) => setInputData(e.target.value);
 
   return (
-    <form>
+    <form className='px-6 w-full lg:px-12'>
       <InputField
-        type='text'
-        classes='border border-sky-500'
-        id='name'
-        placeholder='Enter Name'
+        type='email'
+        classes='border border-slate-500 w-full'
+        id='email'
+        placeholder='Enter Email Address'
         value={inputData}
         onChange={handleChange}
       />
