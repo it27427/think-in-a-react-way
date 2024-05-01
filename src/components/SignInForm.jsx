@@ -8,7 +8,7 @@ const SignInForm = () => {
   const [password, setPassword] = useState('');
 
   return (
-    <form className='px-6 w-full lg:px-12 flex flex-col gap-10'>
+    <form className='bg-slate-100 border border-slate-200 rounded p-6 w-full lg:p-12 flex flex-col gap-10'>
       <div className='flex flex-col gap-5'>
         <InputField
           type='email'
